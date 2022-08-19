@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.04735df5.css",
-    "main.js": "/static/js/main.db6afbbd.js",
-    "static/media/webdev.jpg": "/static/media/webdev.8eba742a6e2debfd2337.jpg",
-    "static/media/pythoncert.png": "/static/media/pythoncert.98cee64209690ee03ea4.png",
-    "static/media/myimage.jpg": "/static/media/myimage.9e2299730e8d080f5926.jpg",
-    "index.html": "/index.html",
-    "main.04735df5.css.map": "/static/css/main.04735df5.css.map",
-    "main.db6afbbd.js.map": "/static/js/main.db6afbbd.js.map"
+    "main.css": "/my_portfolio/static/css/main.04735df5.css",
+    "main.js": "/my_portfolio/static/js/main.6cba9d17.js",
+    "static/media/webdev.jpg": "/my_portfolio/static/media/webdev.8eba742a6e2debfd2337.jpg",
+    "static/media/pythoncert.png": "/my_portfolio/static/media/pythoncert.98cee64209690ee03ea4.png",
+    "static/media/myimage.jpg": "/my_portfolio/static/media/myimage.9e2299730e8d080f5926.jpg",
+    "index.html": "/my_portfolio/index.html",
+    "main.04735df5.css.map": "/my_portfolio/static/css/main.04735df5.css.map",
+    "main.6cba9d17.js.map": "/my_portfolio/static/js/main.6cba9d17.js.map"
   },
   "entrypoints": [
     "static/css/main.04735df5.css",
-    "static/js/main.db6afbbd.js"
+    "static/js/main.6cba9d17.js"
   ]
 }
