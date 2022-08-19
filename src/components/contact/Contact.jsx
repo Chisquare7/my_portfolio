@@ -1,0 +1,72 @@
+import "./Contact.css";
+import phone_icon from "../../img/phone_icon.png";
+import email_icon from "../../img/email_icon.png";
+import address_icon from "../../img/address_icon.png";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+
+const Contact = () => {
+    const formRef = useRef();
+    const [done, setDone] = useState(false)
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        emailjs
+					.sendForm(
+						"service_o1ocpta",
+						"template_ljpb68m",
+						formRef.current,
+						"g-djB4UfcuJRnhM_j"
+					)
+					.then(
+						(result) => {
+                            console.log(result.text);
+                            setDone(true)
+						},
+						(error) => {
+							console.log(error.text);
+						}
+					);
+    }
+
+	return (
+		<div className="contact">
+			<div className="contact_big"></div>
+			<div className="contact_wrapper">
+				<div className="contact_left">
+					<h1 className="contact_title">Let's discuss your project</h1>
+					<div className="contact_texts">
+						<div className="contact_content">
+							<img src={phone_icon} alt="" className="contact_img" />
+							+2347039143077 | +2348029853211
+						</div>
+						<div className="contact_content">
+							<img src={email_icon} alt="" className="contact_img" />
+							chijiokechibuike.f@gmail.com
+						</div>
+						<div className="contact_content">
+							<img src={address_icon} alt="" className="contact_img" />
+							61, Smith Street, Off Alhaji Lasisi street, Mushin Lagos
+						</div>
+					</div>
+				</div>
+				<div className="contact_right">
+					<p className="contact_desc">
+						<strong>What's your story?</strong> Get in touch. Always available
+						for freelancing and job if the right project comes along.
+					</p>
+					<form ref={formRef} onSubmit={handleSubmit}>
+						<input type="text" placeholder="Name" name="user_name" />
+						<input type="text" placeholder="Subject" name="user_subject" />
+						<input type="text" placeholder="Email" name="user_email" />
+						<textarea rows="5" placeholder="Message" name="message" />
+						<button>Submit</button>
+						{done && "Thank you..."}
+					</form>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Contact;
