@@ -25,3 +25,47 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+    .product_list {
+        padding: .625em;
+    }
+
+    .list_texts {
+    width: 100%;
+    }
+
+    .list_desc {
+    display: none;
+    }
+
+    .list_title {
+    font-size: 2.5rem;
+    }
+
+    .contact_content {
+        margin: 1.25em 0em;
+        width: 100%;
+    }
+
+    .contact_desc {
+    display: none;
+    }
+
+    form {
+    margin-top: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    input {
+        width: 35%;
+        height: 2.5rem;
+        margin: .625rem;
+        margin-left: 0;
+    }
+
+    button {
+        margin-top: .625em;
+    }
+}

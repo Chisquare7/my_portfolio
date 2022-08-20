@@ -73,3 +73,31 @@
     color: #555;
     margin-bottom: .63em;
 }
+
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_left {
+        width: 100%;
+    }
+
+    .about_card {
+        height: 30vh;
+    }
+
+    .about_card.big, .about_cert {
+        display: none;
+    }
+
+    .about_right {
+        padding: 1.5em;
+    }
+
+    .remove_text {
+        display: none;
+    }
+}

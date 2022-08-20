@@ -1,5 +1,5 @@
 import "./intro.css";
-import myimage from "../../img/myimage.jpg";
+import myimage from "../../img/Myavatar.png";
 
 const Intro = () => {
 	return (
@@ -13,7 +13,7 @@ const Intro = () => {
 							<div className="skill_items">Web Developer</div>
 							<div className="skill_items">ReactJS Developer</div>
 							<div className="skill_items">Quality Auditor</div>
-							<div className="skill_items">Social Media Content Creator</div>
+							<div className="skill_items">Content Creator</div>
 							<div className="skill_items">Digital Marketer</div>
 						</div>
 					</div>
