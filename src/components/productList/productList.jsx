@@ -8,9 +8,9 @@ const ProductList = () => {
 			<div className="list_texts">
 				<h1 className="list_title">Create, Code & Build. It's Code_Chi</h1>
 				<p className="list_desc">
-					Lama is a creative portfolio that your work has been waiting for.
-					Beautiful homes, stunning portfolio styles & a whole lot more awaits
-					inside.
+					Code_Chi is a creative portfolio with a collection of websites and web
+					applications. Beautiful and Immersive websites and web apps & a whole
+					lot more awaits as you check them out.
 				</p>
 			</div>
 			<div className="all_list">
