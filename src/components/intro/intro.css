@@ -8,7 +8,7 @@
 .intro {
     display: flex;
     height: 100vh;
-    /* max-width: 1440px; */
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@
     flex: 1;
     position: relative;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .left_wrapper {
