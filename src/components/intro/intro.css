@@ -20,6 +20,8 @@
 .intro_right {
     flex: 1;
     position: relative;
+    display: flex;
+    justify-content: end;
 }
 
 .left_wrapper {
@@ -29,6 +31,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 .name_intro {
     font-size: 1.88rem;
@@ -82,10 +86,10 @@
 }
 
 .intro_img {
-    width: 100%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
+    z-index: 2;
 }
 
 .img_container {
