@@ -1,6 +1,8 @@
 .contact {
     height: 100vh;
     position: relative;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .contact_big {
