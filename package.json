@@ -2,7 +2,7 @@
 	"name": "new",
 	"version": "0.1.0",
 	"private": true,
-	// "homepage": "http://Chisquare7.github.io/my_portfolio",
+	"homepage": "http://Chisquare7.github.io/my_portfolio",
 	"dependencies": {
 		"@emailjs/browser": "^3.6.2",
 		"@testing-library/jest-dom": "^5.11.4",
@@ -39,7 +39,7 @@
 			"last 1 safari version"
 		]
 	},
-	// "devDependencies": {
-	// 	"gh-pages": "^4.0.0"
-	// }
+	"devDependencies": {
+		"gh-pages": "^4.0.0"
+	}
 }
