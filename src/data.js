@@ -1,12 +1,12 @@
 export const products = [
 	{
 		id: 1,
-		img: "https://ibb.co/vDcTK8G",
+		img: "https://i.ibb.co/Lv0c2fW/9ijakids-games-netlify-app.jpg",
 		link: "https://9ijakids-games.netlify.app/",
 	},
 	{
 		id: 2,
-		img: "https://ibb.co/vPBJmW9",
+		img: "https://i.ibb.co/Xs4zpPH/lilies-food-app-netlify-app.png",
 		link: "https://lilies-food-app.netlify.app/",
 	},
 	{
