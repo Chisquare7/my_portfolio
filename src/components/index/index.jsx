@@ -10,17 +10,29 @@ const Intro = () => {
 					<h1 className="main_name">Chibuike Chijioke</h1>
 					<div className="skill_title">
 						<div className="skill_wrapper">
-							<div className="skill_items">Web Developer</div>
-							<div className="skill_items">ReactJS Developer</div>
-							<div className="skill_items">Quality Auditor</div>
-							<div className="skill_items">Content Creator</div>
-							<div className="skill_items">Digital Marketer</div>
+							<div>
+								<p className="skill_items">Frontend Developer</p>
+							</div>
+							<div>
+								<p className="skill_items">ReactJS Developer</p>
+							</div>
+							<div>
+								<p className="skill_items">Quality Auditor</p>
+							</div>
+							<div>
+								<p className="skill_items">Web Developer</p>
+							</div>
+							{/* <div className="skill_items">
+								<p>Digital Marketer</p>
+							</div> */}
 						</div>
 					</div>
-					<div className="skill_desc">
-						With every line of code - - Powered by Figma and VS Code, I strives
-						to build immersive and beautiful web applications through
-						user-centric designs...
+					<div>
+						<p className="skill_desc">
+							With every line of code - - Powered by Figma and VS Code, I
+							strives to build immersive and beautiful web applications through
+							user-centric designs...
+						</p>
 					</div>
 				</div>
 				{/* <svg
