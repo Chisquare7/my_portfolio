@@ -1,13 +1,13 @@
 export const products = [
 	{
 		id: 1,
-		img: "https://i.ibb.co/5jxCRXf/screencapture-chisquare7-github-io-Huddle-Landing-Page-2022-08-19-06-40-18.png",
-		link: "https://chisquare7.github.io/Huddle_Landing_Page/",
+		img: "https://ibb.co/vDcTK8G",
+		link: "https://9ijakids-games.netlify.app/",
 	},
 	{
 		id: 2,
-		img: "https://i.ibb.co/KDTRRgH/screencapture-chisquare7-github-io-Media-Query-Registration-Form-2022-08-19-06-43-26.png",
-		link: "https://chisquare7.github.io/Media_Query_Registration_Form/",
+		img: "https://ibb.co/vPBJmW9",
+		link: "https://lilies-food-app.netlify.app/",
 	},
 	{
 		id: 3,
