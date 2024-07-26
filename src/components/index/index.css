@@ -7,9 +7,10 @@
 
 .intro {
     display: flex;
-    height: 100vh;
+    height: auto;
     max-width: 1440px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .intro_left {
@@ -59,10 +60,10 @@
 
 .skill_wrapper {
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 15s ease-in-out infinite alternate;
 }
 
-@keyframes move {
+/* @keyframes move {
     25% {
         transform: translateY(-3.13rem);
     }
@@ -76,6 +77,34 @@
         transform: translateY(-12.5rem);
     }
     
+} */
+
+@keyframes move {
+    14.3% {
+        transform: translateY(-3.13rem);
+    }
+    28.6% {
+        transform: translateY(-6.26rem);
+    }
+    42.9% {
+        transform: translateY(-9.39rem);
+    }
+    57.1% {
+        transform: translateY(-12.52rem);
+    }
+    71.4% {
+        transform: translateY(-15.65rem);
+    }
+    85.7% {
+        transform: translateY(-18.78rem);
+    }
+    100% {
+        transform: translateY(-21.91rem);
+    }
+}
+
+.skill_desc{
+    font-size: 1rem;
 }
 
 .skill_items {

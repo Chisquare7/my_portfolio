@@ -17,10 +17,16 @@ const App = () => {
 			}}
 		>
 			<Toggle />
-			<Index />
-			<About />
-			<ProductList />
-			<Contact />
+			<div className="appContainer">
+				<div className="appSection"><Index /></div>
+				<div className="appSection"><About /></div>
+				<div className="appSection"><ProductList /></div>
+				<div className="appSection"><Contact /></div>
+			</div>
+			{/* <div><Index /></div>
+			<div><About /></div>
+			<div><ProductList /></div>
+			<div><Contact /></div> */}
 		</div>
 	);
 };

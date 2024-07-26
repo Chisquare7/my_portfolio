@@ -6,11 +6,10 @@ const ProductList = () => {
 	return (
 		<div className="product_list">
 			<div className="list_texts">
-				<h1 className="list_title">Create, Code & Build. It's Code_Chi</h1>
+				<h1 className="list_title">Recent Projects</h1>
+				<h4><em className="project_subhead">Think, Code, Build & Launch...</em></h4>
 				<p className="list_desc">
-					Code_Chi is a creative portfolio with a collection of websites and web
-					applications. Beautiful and Immersive websites and web apps & a whole
-					lot more awaits as you check them out.
+					Explore a collection of beautiful and immersive websites and web applications.
 				</p>
 			</div>
 			<div className="all_list">

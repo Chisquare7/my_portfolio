@@ -2,40 +2,46 @@ import "./index.css";
 import myimage from "../../img/Myavatar.png";
 
 const Intro = () => {
-	return (
-		<div className="intro">
-			<div className="intro_left">
-				<div className="left_wrapper">
-					<h2 className="name_intro">Hello, My name is</h2>
-					<h1 className="main_name">Chibuike Chijioke</h1>
-					<div className="skill_title">
-						<div className="skill_wrapper">
-							<div>
-								<p className="skill_items">Frontend Developer</p>
-							</div>
-							<div>
-								<p className="skill_items">ReactJS Developer</p>
-							</div>
-							<div>
-								<p className="skill_items">Quality Auditor</p>
-							</div>
-							<div>
-								<p className="skill_items">Web Developer</p>
-							</div>
-							{/* <div className="skill_items">
-								<p>Digital Marketer</p>
-							</div> */}
-						</div>
-					</div>
-					<div>
-						<p className="skill_desc">
-							With every line of code - - Powered by Figma and VS Code, I
-							strives to build immersive and beautiful web applications through
-							user-centric designs...
-						</p>
-					</div>
-				</div>
-				{/* <svg
+  return (
+    <div className="intro">
+      <div className="intro_left">
+        <div className="left_wrapper">
+          <h2 className="name_intro">Hello, My name is</h2>
+          <h1 className="main_name">Chibuike Chijioke</h1>
+          <div className="skill_title">
+            <div className="skill_wrapper">
+              <div>
+                <p className="skill_items">Software Developer</p>
+              </div>
+              <div>
+                <p className="skill_items">Frontend Developer</p>
+              </div>
+              <div>
+                <p className="skill_items">Backend Developer (NodeJS)</p>
+              </div>
+              <div>
+                <p className="skill_items">Fullstack Engineer</p>
+              </div>
+              <div>
+                <p className="skill_items">Web Developer</p>
+              </div>
+              <div className="skill_items">
+                <p>TypeScript | JavaScript</p>
+              </div>
+              <div className="skill_items">
+                <p>NodeJS | NestJS</p>
+              </div>
+            </div>
+          </div>
+          <div className="skill_info">
+            <p className="skill_desc">
+              With every line of code - - Powered by Figma and VS Code, I commit
+              to build immersive and beautiful web applications through
+              user-centric designs and robust backend development...
+            </p>
+          </div>
+        </div>
+        {/* <svg
 					width="75"
 					height="75"
 					viewBox="0 0 75 75"
@@ -91,13 +97,16 @@ const Intro = () => {
 						</g>
 					</g>
 				</svg> */}
-			</div>
-			<div className="intro_right">
-				<div className="img_container"></div>
-				<img src={myimage} alt="" className="intro_img" />
-			</div>
-		</div>
-	);
+      </div>
+      <div className="intro_right">
+        <div className="img_container"></div>
+        {/* <div className="intro_img">
+          <img src={myimage} alt="" />
+        </div> */}
+        <img src={myimage} alt="" className="intro_img" />
+      </div>
+    </div>
+  );
 };
 
 export default Intro;

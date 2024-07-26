@@ -1,8 +1,9 @@
 .contact {
-    height: 100vh;
+    height: auto;
     position: relative;
     max-width: 1440px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .contact_big {
@@ -31,7 +32,7 @@
 }
 
 .contact_title {
-    font-size: 3.75rem;
+    font-size: 3.13rem;
     width: 75%;
 }
 
@@ -39,6 +40,7 @@
     display: flex;
     align-items: center;
     margin: 3.13em 0em;
+    font-size: 1.25rem;
     font-weight: 300;
     width: 50%;
 }
@@ -50,6 +52,7 @@
 }
 
 .contact_desc {
+    font-size: 1.25rem;
     font-weight: 200;
 }
 

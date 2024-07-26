@@ -41,7 +41,7 @@ const Contact = () => {
 					<div className="contact_texts">
 						<div className="contact_content">
 							<img src={phone_icon} alt="" className="contact_img" />
-							+2347039143077 | +2348029853211
+							+2348131461662 | +2347039143077
 						</div>
 						<div className="contact_content">
 							<img src={email_icon} alt="" className="contact_img" />
@@ -49,7 +49,7 @@ const Contact = () => {
 						</div>
 						<div className="contact_content">
 							<img src={address_icon} alt="" className="contact_img" />
-							61, Smith Street, Off Alhaji Lasisi street, Mushin Lagos
+							Lagos, Nigeria
 						</div>
 					</div>
 				</div>
