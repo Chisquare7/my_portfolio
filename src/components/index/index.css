@@ -63,22 +63,6 @@
     animation: move 15s ease-in-out infinite alternate;
 }
 
-/* @keyframes move {
-    25% {
-        transform: translateY(-3.13rem);
-    }
-    50% {
-        transform: translateY(-6.25rem);
-    }
-    75% {
-        transform: translateY(-9.38rem);
-    }
-    100% {
-        transform: translateY(-12.5rem);
-    }
-    
-} */
-
 @keyframes move {
     14.3% {
         transform: translateY(-3.13rem);
@@ -146,7 +130,6 @@
     .left_wrapper {
         height: 100%;
         padding-bottom: 0;
-        /* padding: .625em; */
         justify-content: center;
         align-items: center;
     }
